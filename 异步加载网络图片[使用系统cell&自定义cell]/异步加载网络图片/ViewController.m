@@ -10,6 +10,7 @@
 #import "AFNetworking.h"
 #import "appModel.h"
 #import "UIImageView+WebCache.h"
+#import "appCell.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *appList;
@@ -55,14 +56,14 @@
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
+	appCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
 	appModel *model = _appList[indexPath.row];
 	/*  使用系统cell
 	 cell.textLabel.text = model.name;
 	 cell.detailTextLabel.text = model.download;
 	 [cell.imageView sd_setImageWithURL:[NSURL URLWithString:model.icon] placeholderImage:[UIImage imageNamed:@"user_default"]];
 	 */
-	
+	cell.model = model;
 
 
 	return cell;

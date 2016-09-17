@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D330C371D8DA3B000FFD3CE /* appCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D330C361D8DA3B000FFD3CE /* appCell.m */; };
 		9D7AC2821D8CFEA600FDBBB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AC2811D8CFEA600FDBBB5 /* main.m */; };
 		9D7AC2851D8CFEA600FDBBB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AC2841D8CFEA600FDBBB5 /* AppDelegate.m */; };
 		9D7AC2881D8CFEA600FDBBB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7AC2871D8CFEA600FDBBB5 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D330C351D8DA3B000FFD3CE /* appCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appCell.h; sourceTree = "<group>"; };
+		9D330C361D8DA3B000FFD3CE /* appCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = appCell.m; sourceTree = "<group>"; };
 		9D7AC27D1D8CFEA600FDBBB5 /* 异步加载网络图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "异步加载网络图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7AC2811D8CFEA600FDBBB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D7AC2831D8CFEA600FDBBB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				9D7AC2841D8CFEA600FDBBB5 /* AppDelegate.m */,
 				9D7AC2861D8CFEA600FDBBB5 /* ViewController.h */,
 				9D7AC2871D8CFEA600FDBBB5 /* ViewController.m */,
+				9D330C351D8DA3B000FFD3CE /* appCell.h */,
+				9D330C361D8DA3B000FFD3CE /* appCell.m */,
 				9DF0CBDB1D8D772F00C43ED2 /* appModel.h */,
 				9DF0CBDC1D8D772F00C43ED2 /* appModel.m */,
 				9D7AC2891D8CFEA600FDBBB5 /* Main.storyboard */,
@@ -308,6 +313,7 @@
 				9DF0CBD81D8D74E500C43ED2 /* AFURLRequestSerialization.m in Sources */,
 				9DF0CC0D1D8D9A3B00C43ED2 /* UIImageView+HighlightedWebCache.m in Sources */,
 				9DF0CBD91D8D74E500C43ED2 /* AFURLResponseSerialization.m in Sources */,
+				9D330C371D8DA3B000FFD3CE /* appCell.m in Sources */,
 				9DF0CC021D8D9A3B00C43ED2 /* SDImageCache.m in Sources */,
 				9DF0CC091D8D9A3B00C43ED2 /* UIButton+WebCache.m in Sources */,
 				9DF0CC011D8D9A3B00C43ED2 /* NSData+ImageContentType.m in Sources */,
